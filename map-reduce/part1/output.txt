@@ -1,0 +1,1672 @@
+--2024-02-03 10:44:12--  https://raw.githubusercontent.com/amephraim/nlp/master/texts/J.%20K.%20Rowling%20-%20Harry%20Potter%201%20-%20Sorcerer's%20Stone.txt
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 439742 (429K) [text/plain]
+Saving to: ‘harry_potter.txt’
+
+harry_potter.txt      0%[                    ]       0  --.-KB/s               harry_potter.txt    100%[===================>] 429.44K  --.-KB/s    in 0.07s   
+
+2024-02-03 10:44:12 (5.97 MB/s) - ‘harry_potter.txt’ saved [439742/439742]
+
+put: `/user/hdfs/input/harry_potter.txt': File exists
+[sPreparing to copy...[?25l[u[2KCopying to container - 0B[?25h[u[2KSuccessfully copied 441kB to namenode:/
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for gr.aueb.panagiotisl:hadoop-map-reduce-examples:jar:1.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 36, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mgr.aueb.panagiotisl:hadoop-map-reduce-examples[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding hadoop-map-reduce-examples 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mhadoop-map-reduce-examples[0;1m ---[m
+[[1;34mINFO[m] Deleting /vagrant/hadoop-mapreduce-examples/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mhadoop-map-reduce-examples[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mhadoop-map-reduce-examples[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 2 source files to /vagrant/hadoop-mapreduce-examples/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mhadoop-map-reduce-examples[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /vagrant/hadoop-mapreduce-examples/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mhadoop-map-reduce-examples[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mhadoop-map-reduce-examples[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mhadoop-map-reduce-examples[0;1m ---[m
+[[1;34mINFO[m] Building jar: /vagrant/hadoop-mapreduce-examples/target/hadoop-map-reduce-examples-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-assembly-plugin:2.2-beta-5:single[m [1m(make-assembly)[m @ [36mhadoop-map-reduce-examples[0;1m ---[m
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/org.apache.hadoop.security.token.TokenRenewer already added, skipping
+[[1;34mINFO[m] META-INF/services/org.apache.hadoop.security.token.TokenIdentifier already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factory/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factory/providers/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/util/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factories/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/server/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/server/api/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/server/api/protocolrecords/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/api/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/api/protocolrecords/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/api/records/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factory/providers/package-info.class already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/util/package-info.class already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factories/package-info.class already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/slf4j/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.slf4j/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/google/ already added, skipping
+[[1;34mINFO[m] com/google/inject/ already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/google/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/test/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/test/framework/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/test/framework/spi/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/test/framework/spi/container/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey.jersey-test-framework/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/jersey-module-version already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/jersey-module-version already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/spi/ already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey/ already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/jersey-module-version already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/com.sun.jersey.spi.container.ContainerProvider already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/container/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/server/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/server/impl/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/server/impl/container/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/http/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] javax/servlet/ already added, skipping
+[[1;34mINFO[m] javax/servlet/http/ already added, skipping
+[[1;34mINFO[m] javax/servlet/descriptor/ already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/ already added, skipping
+[[1;34mINFO[m] javax/servlet/SessionTrackingMode.class already added, skipping
+[[1;34mINFO[m] javax/servlet/AsyncListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterRegistration.class already added, skipping
+[[1;34mINFO[m] javax/servlet/AsyncEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/Part.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletRequest.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/NoBodyResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/Cookie.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpUtils.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSession.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings_fr.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Filter.class already added, skipping
+[[1;34mINFO[m] javax/servlet/MultipartConfigElement.class already added, skipping
+[[1;34mINFO[m] javax/servlet/GenericServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/descriptor/JspPropertyGroupDescriptor.class already added, skipping
+[[1;34mINFO[m] javax/servlet/descriptor/TaglibDescriptor.class already added, skipping
+[[1;34mINFO[m] javax/servlet/descriptor/JspConfigDescriptor.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletInputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/UnavailableException.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterChain.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRegistration$Dynamic.class already added, skipping
+[[1;34mINFO[m] javax/servlet/SingleThreadModel.class already added, skipping
+[[1;34mINFO[m] javax/servlet/HttpMethodConstraintElement.class already added, skipping
+[[1;34mINFO[m] javax/servlet/HttpConstraintElement.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Registration.class already added, skipping
+[[1;34mINFO[m] javax/servlet/DispatcherType.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletException.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Registration$Dynamic.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletOutputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRegistration.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequest.class already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings_ja.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/SessionCookieConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletResponseWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/RequestDispatcher.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/HttpMethodConstraint.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/ServletSecurity$TransportGuarantee.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/HandlesTypes.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/WebListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/ServletSecurity$EmptyRoleSemantic.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/MultipartConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/WebInitParam.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/ServletSecurity.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/HttpConstraint.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/WebFilter.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/WebServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Servlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContainerInitializer.class already added, skipping
+[[1;34mINFO[m] javax/servlet/AsyncContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletSecurityElement.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterRegistration$Dynamic.class already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/jersey-module-version already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/javax.ws.rs.ext.MessageBodyReader already added, skipping
+[[1;34mINFO[m] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] javax/xml/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/codehaus/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/ASL2.0 already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/codehaus/ already added, skipping
+[[1;34mINFO[m] org/codehaus/jackson/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/ASL2.0 already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/codehaus/ already added, skipping
+[[1;34mINFO[m] org/codehaus/jackson/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/ASL2.0 already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/codehaus/ already added, skipping
+[[1;34mINFO[m] org/codehaus/jackson/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/org.apache.hadoop.security.SecurityInfo already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/google/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.commons/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] javax/servlet/ already added, skipping
+[[1;34mINFO[m] javax/servlet/http/ already added, skipping
+[[1;34mINFO[m] javax/servlet/Filter.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterChain.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/GenericServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings_fr.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings_ja.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/RequestDispatcher.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Servlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletException.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletInputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletOutputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequest.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletResponseWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/SingleThreadModel.class already added, skipping
+[[1;34mINFO[m] javax/servlet/UnavailableException.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/Cookie.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletRequest.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSession.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpUtils.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/NoBodyResponse.class already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/mortbay/ already added, skipping
+[[1;34mINFO[m] org/mortbay/servlet/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.mortbay.jetty/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/jasper/ already added, skipping
+[[1;34mINFO[m] org/apache/jasper/compiler/ already added, skipping
+[[1;34mINFO[m] org/apache/jasper/compiler/Localizer.class already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] javax/servlet/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/httpclient/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/ArrayStack.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/Buffer.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BasicDynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BasicDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BeanAccessLanguageException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BeanUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BeanUtilsBean$1.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BeanUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConstructorUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ContextClassLoaderLocal.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConversionException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConvertUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConvertUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/Converter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConvertingWrapDynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/DynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/DynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/DynaProperty.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/JDBCDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/LazyDynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/LazyDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/LazyDynaMap.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/MappedPropertyDescriptor.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/MethodUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/MutableDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/NestedNullException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/PropertyUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/PropertyUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ResultSetDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ResultSetIterator.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/RowSetDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/WrapDynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/WrapDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/AbstractArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/BigDecimalConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/BigIntegerConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/BooleanArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/BooleanConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ByteArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ByteConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/CharacterArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/CharacterConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ClassConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/DoubleArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/DoubleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/FileConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/FloatArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/FloatConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/IntegerArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/IntegerConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/LongArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/LongConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ShortArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ShortConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/SqlDateConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/SqlTimeConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/SqlTimestampConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/StringArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/StringConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/URLConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/BaseLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleConvertUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/ArrayStack.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/Buffer.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap.class already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/security/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/util/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] LICENSE.txt already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] Building jar: /vagrant/hadoop-mapreduce-examples/target/hadoop-map-reduce-examples-1.0-SNAPSHOT-jar-with-dependencies.jar
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/org.apache.hadoop.security.token.TokenRenewer already added, skipping
+[[1;34mINFO[m] META-INF/services/org.apache.hadoop.security.token.TokenIdentifier already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factory/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factory/providers/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/util/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factories/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/server/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/server/api/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/server/api/protocolrecords/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/api/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/api/protocolrecords/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/api/records/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factory/providers/package-info.class already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/util/package-info.class already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/yarn/factories/package-info.class already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/slf4j/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.slf4j/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/google/ already added, skipping
+[[1;34mINFO[m] com/google/inject/ already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/google/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/test/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/test/framework/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/test/framework/spi/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/test/framework/spi/container/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey.jersey-test-framework/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/jersey-module-version already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/jersey-module-version already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/spi/ already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey/ already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/jersey-module-version already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/com.sun.jersey.spi.container.ContainerProvider already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/container/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/server/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/server/impl/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/server/impl/container/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/http/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/glassfish/ already added, skipping
+[[1;34mINFO[m] org/glassfish/grizzly/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] javax/servlet/ already added, skipping
+[[1;34mINFO[m] javax/servlet/http/ already added, skipping
+[[1;34mINFO[m] javax/servlet/descriptor/ already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/ already added, skipping
+[[1;34mINFO[m] javax/servlet/SessionTrackingMode.class already added, skipping
+[[1;34mINFO[m] javax/servlet/AsyncListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterRegistration.class already added, skipping
+[[1;34mINFO[m] javax/servlet/AsyncEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/Part.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletRequest.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/NoBodyResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/Cookie.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpUtils.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSession.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings_fr.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Filter.class already added, skipping
+[[1;34mINFO[m] javax/servlet/MultipartConfigElement.class already added, skipping
+[[1;34mINFO[m] javax/servlet/GenericServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/descriptor/JspPropertyGroupDescriptor.class already added, skipping
+[[1;34mINFO[m] javax/servlet/descriptor/TaglibDescriptor.class already added, skipping
+[[1;34mINFO[m] javax/servlet/descriptor/JspConfigDescriptor.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletInputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/UnavailableException.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterChain.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRegistration$Dynamic.class already added, skipping
+[[1;34mINFO[m] javax/servlet/SingleThreadModel.class already added, skipping
+[[1;34mINFO[m] javax/servlet/HttpMethodConstraintElement.class already added, skipping
+[[1;34mINFO[m] javax/servlet/HttpConstraintElement.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Registration.class already added, skipping
+[[1;34mINFO[m] javax/servlet/DispatcherType.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletException.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Registration$Dynamic.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletOutputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRegistration.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequest.class already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings_ja.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/SessionCookieConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletResponseWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/RequestDispatcher.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/HttpMethodConstraint.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/ServletSecurity$TransportGuarantee.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/HandlesTypes.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/WebListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/ServletSecurity$EmptyRoleSemantic.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/MultipartConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/WebInitParam.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/ServletSecurity.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/HttpConstraint.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/WebFilter.class already added, skipping
+[[1;34mINFO[m] javax/servlet/annotation/WebServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Servlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContainerInitializer.class already added, skipping
+[[1;34mINFO[m] javax/servlet/AsyncContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletSecurityElement.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterRegistration$Dynamic.class already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/jersey-module-version already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/com.sun.jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/javax.ws.rs.ext.MessageBodyReader already added, skipping
+[[1;34mINFO[m] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/api/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] javax/xml/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/codehaus/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/ASL2.0 already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/codehaus/ already added, skipping
+[[1;34mINFO[m] org/codehaus/jackson/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/ASL2.0 already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/codehaus/ already added, skipping
+[[1;34mINFO[m] org/codehaus/jackson/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/ASL2.0 already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/codehaus/ already added, skipping
+[[1;34mINFO[m] org/codehaus/jackson/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/sun/ already added, skipping
+[[1;34mINFO[m] com/sun/jersey/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/services/ already added, skipping
+[[1;34mINFO[m] META-INF/services/org.apache.hadoop.security.SecurityInfo already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] com/ already added, skipping
+[[1;34mINFO[m] com/google/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.commons/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] javax/servlet/ already added, skipping
+[[1;34mINFO[m] javax/servlet/http/ already added, skipping
+[[1;34mINFO[m] javax/servlet/Filter.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterChain.class already added, skipping
+[[1;34mINFO[m] javax/servlet/FilterConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/GenericServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings_fr.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/LocalStrings_ja.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/RequestDispatcher.class already added, skipping
+[[1;34mINFO[m] javax/servlet/Servlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletConfig.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletContextListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletException.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletInputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletOutputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequest.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletRequestWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/ServletResponseWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/SingleThreadModel.class already added, skipping
+[[1;34mINFO[m] javax/servlet/UnavailableException.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/Cookie.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServlet.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletRequest.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletResponse.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSession.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionContext.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpSessionListener.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/HttpUtils.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[[1;34mINFO[m] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[[1;34mINFO[m] javax/servlet/http/NoBodyResponse.class already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/mortbay/ already added, skipping
+[[1;34mINFO[m] org/mortbay/servlet/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.mortbay.jetty/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/jasper/ already added, skipping
+[[1;34mINFO[m] org/apache/jasper/compiler/ already added, skipping
+[[1;34mINFO[m] org/apache/jasper/compiler/Localizer.class already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] javax/ already added, skipping
+[[1;34mINFO[m] javax/servlet/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/httpclient/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/ArrayStack.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/Buffer.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE.txt already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE.txt already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BasicDynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BasicDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BeanAccessLanguageException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BeanUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BeanUtilsBean$1.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/BeanUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConstructorUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ContextClassLoaderLocal.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConversionException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConvertUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConvertUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/Converter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ConvertingWrapDynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/DynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/DynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/DynaProperty.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/JDBCDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/LazyDynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/LazyDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/LazyDynaMap.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/MappedPropertyDescriptor.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/MethodUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/MutableDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/NestedNullException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/PropertyUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/PropertyUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ResultSetDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/ResultSetIterator.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/RowSetDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/WrapDynaBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/WrapDynaClass.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/AbstractArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/BigDecimalConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/BigIntegerConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/BooleanArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/BooleanConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ByteArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ByteConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/CharacterArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/CharacterConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ClassConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/DoubleArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/DoubleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/FileConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/FloatArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/FloatConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/IntegerArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/IntegerConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/LongArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/LongConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ShortArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/ShortConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/SqlDateConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/SqlTimeConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/SqlTimestampConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/StringArrayConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/StringConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/converters/URLConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/BaseLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleConvertUtils.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/LocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/ already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/ArrayStack.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/Buffer.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[[1;34mINFO[m] org/apache/commons/collections/FastHashMap.class already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/security/ already added, skipping
+[[1;34mINFO[m] org/apache/hadoop/util/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/ already added, skipping
+[[1;34mINFO[m] META-INF/maven/org.apache.hadoop/ already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] META-INF/ already added, skipping
+[[1;34mINFO[m] META-INF/MANIFEST.MF already added, skipping
+[[1;34mINFO[m] LICENSE.txt already added, skipping
+[[1;34mINFO[m] org/ already added, skipping
+[[1;34mINFO[m] org/apache/ already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mhadoop-map-reduce-examples[0;1m ---[m
+[[1;34mINFO[m] Installing /vagrant/hadoop-mapreduce-examples/target/hadoop-map-reduce-examples-1.0-SNAPSHOT.jar to /home/vagrant/.m2/repository/gr/aueb/panagiotisl/hadoop-map-reduce-examples/1.0-SNAPSHOT/hadoop-map-reduce-examples-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /vagrant/hadoop-mapreduce-examples/pom.xml to /home/vagrant/.m2/repository/gr/aueb/panagiotisl/hadoop-map-reduce-examples/1.0-SNAPSHOT/hadoop-map-reduce-examples-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /vagrant/hadoop-mapreduce-examples/target/hadoop-map-reduce-examples-1.0-SNAPSHOT-jar-with-dependencies.jar to /home/vagrant/.m2/repository/gr/aueb/panagiotisl/hadoop-map-reduce-examples/1.0-SNAPSHOT/hadoop-map-reduce-examples-1.0-SNAPSHOT-jar-with-dependencies.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  42.919 s
+[[1;34mINFO[m] Finished at: 2024-02-03T10:45:02Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[sPreparing to copy...[?25l[u[2KCopying to container - 0B[24G[0K17.1MB[?25h[u[2KSuccessfully copied 24.4MB to namenode:/
+Deleted /user/hdfs/output
+2024-02-03 10:45:12,276 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.18.0.5:8032
+2024-02-03 10:45:12,608 INFO client.AHSProxy: Connecting to Application History server at historyserver/172.18.0.6:10200
+2024-02-03 10:45:13,006 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-02-03 10:45:13,055 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/root/.staging/job_1706955562630_0005
+2024-02-03 10:45:13,374 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-02-03 10:45:13,900 INFO input.FileInputFormat: Total input files to process : 1
+2024-02-03 10:45:14,021 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-02-03 10:45:14,068 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-02-03 10:45:14,100 INFO mapreduce.JobSubmitter: number of splits:1
+2024-02-03 10:45:14,423 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-02-03 10:45:14,468 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1706955562630_0005
+2024-02-03 10:45:14,469 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-02-03 10:45:15,017 INFO conf.Configuration: resource-types.xml not found
+2024-02-03 10:45:15,018 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2024-02-03 10:45:15,645 INFO impl.YarnClientImpl: Submitted application application_1706955562630_0005
+2024-02-03 10:45:15,803 INFO mapreduce.Job: The url to track the job: http://resourcemanager:8088/proxy/application_1706955562630_0005/
+2024-02-03 10:45:15,810 INFO mapreduce.Job: Running job: job_1706955562630_0005
+2024-02-03 10:45:28,313 INFO mapreduce.Job: Job job_1706955562630_0005 running in uber mode : false
+2024-02-03 10:45:28,323 INFO mapreduce.Job:  map 0% reduce 0%
+2024-02-03 10:45:37,602 INFO mapreduce.Job:  map 100% reduce 0%
+2024-02-03 10:45:45,782 INFO mapreduce.Job:  map 100% reduce 100%
+2024-02-03 10:45:45,830 INFO mapreduce.Job: Job job_1706955562630_0005 completed successfully
+2024-02-03 10:45:46,008 INFO mapreduce.Job: Counters: 54
+	File System Counters
+		FILE: Number of bytes read=53697
+		FILE: Number of bytes written=565693
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=439860
+		HDFS: Number of bytes written=117191
+		HDFS: Number of read operations=8
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=23412
+		Total time spent by all reduces in occupied slots (ms)=41080
+		Total time spent by all map tasks (ms)=5853
+		Total time spent by all reduce tasks (ms)=5135
+		Total vcore-milliseconds taken by all map tasks=5853
+		Total vcore-milliseconds taken by all reduce tasks=5135
+		Total megabyte-milliseconds taken by all map tasks=23973888
+		Total megabyte-milliseconds taken by all reduce tasks=42065920
+	Map-Reduce Framework
+		Map input records=10702
+		Map output records=81507
+		Map output bytes=765769
+		Map output materialized bytes=53689
+		Input split bytes=118
+		Combine input records=81507
+		Combine output records=11898
+		Reduce input groups=11898
+		Reduce shuffle bytes=53689
+		Reduce input records=11898
+		Reduce output records=11898
+		Spilled Records=23796
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=141
+		CPU time spent (ms)=2550
+		Physical memory (bytes) snapshot=355180544
+		Virtual memory (bytes) snapshot=13150466048
+		Total committed heap usage (bytes)=230821888
+		Peak Map Physical memory (bytes)=231907328
+		Peak Map Virtual memory (bytes)=4955017216
+		Peak Reduce Physical memory (bytes)=123273216
+		Peak Reduce Virtual memory (bytes)=8195448832
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=439742
+	File Output Format Counters 
+		Bytes Written=117191
+2024-02-03 10:45:50,570 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-02-03 10:45:50,765 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+	3087
+"Defects,"	1
+"Information	1
+"Plain	2
+"Project	5
+"Right	1
+#2701]	1
+$20,000,000!	1
+$5,000)	1
+$7,000,000.	1
+&	2
+'AS-IS',	1
+("the	1
+($1	1
+(1775)	1
+(801)	1
+(Ahab’s)	1
+(Albatross)	1
+(American)	1
+(Bunger,	1
+(Fife)	1
+(Greenland	1
+(I	1
+(Pig-fish	1
+(Pull,	1
+(Sperm	3
+(Spring,	1
+(Steelkilt)	1
+(Steelkilt’s)	1
+(Strong,	1
+(Supplied	3
+(Terra	1
+(_A	1
+(_Advancing_.)	1
+(_Ahab	3
+(_Algerine	1
+(_As	1
+(_Ascending,	1
+(_Aside_)	1
+(_Aside_.)	1
+(_Black	1
+(_Carpenter	1
+(_Dancing_)	1
+(_Duodecimo_),	3
+(_Duodecimo_).	1
+(_During	1
+(_Enter	1
+(_Fin-Back_).—Under	1
+(_Folio_)	1
+(_Folio_),	6
+(_Foresail	1
+(_Grampus_).—Though	1
+(_Hump	1
+(_Huzza	1
+(_Killer_).—Of	1
+(_Leaps	1
+(_Mealy-mouthed	1
+(_Narwhale_),	1
+(_Nudging_.)	1
+(_Octavo_),	6
+(_Octavo_).	1
+(_Quietly	1
+(_Razor	1
+(_Reclining	2
+(_Reclining_.)	1
+(_Right	1
+(_Sings,	1
+(_Sperm	1
+(_Stubb	1
+(_Sulky	1
+(_Sulphur	1
+(_The	1
+(_They	2
+(_Thrasher_).—This	1
+(_advancing_).	1
+(_aside_).	1
+(_cabinet_	1
+(_grimly_).	1
+(_i.e._,	1
+(_meeting	1
+(_or	1
+(_resuming	1
+(_shrinking	1
+(_sneezes_)	3
+(_sneezes_).	2
+(_sneezes_)—bless	1
+(_sneezes_)—why	1
+(_sneezes_)—yes	1
+(_somewhere_.)	1
+(_springing_).	1
+(_the	1
+(_thrusts	1
+(_turns	1
+(_waving	1
+(_with	1
+(a)	1
+(all	1
+(almost	1
+(also	1
+(and	4
