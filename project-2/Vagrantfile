@@ -80,7 +80,7 @@ Vagrant.configure("2") do |config|
     apt-get install -y docker-compose default-jdk python3-pip
     python3 -m pip install aiokafka Faker
     docker-compose -f docker-compose-kafka.yml up -d
-    wget https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
+    wget https://archive.apache.org/dist/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
     tar xvf spark*.tgz
     rm spark*.tgz
     mv spark* /opt/spark
