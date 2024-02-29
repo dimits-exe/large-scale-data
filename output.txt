@@ -1,9 +1,11 @@
 vagrant_kafka_1
-Error response from daemon: No such container: vagrant_zookeper_1
+vagrant_zookeeper_1
 cassandra
-Error: failed to start containers: vagrant_zookeper_1
 Data stream open. Records sent:
-{'id': 63956, 'name': 'Tsirmpas Dimitris', 'song': 'Kolor', 'time': '2024-02-29 01:54'}
+{'id': 73531, 'name': 'Tsirmpas Dimitris', 'song': 'Summer Love', 'time': '2024-02-29 02:05'}
+{'id': 63708, 'name': 'Julie Dunn', 'song': 'Faz um Vuk Vuk (Teto Espelhado)', 'time': '2024-02-29 02:05'}
+{'id': 14521, 'name': 'Anna Lawson', 'song': 'Люди', 'time': '2024-02-29 02:06'}
+{'id': 36957, 'name': 'Gordon Abbott', 'song': 'Elevated', 'time': '2024-02-29 02:06'}
 ^CTraceback (most recent call last):
   File "src/data-producer.py", line 76, in <module>
     result = loop.run_until_complete(produce())
