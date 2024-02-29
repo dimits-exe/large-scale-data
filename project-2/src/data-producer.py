@@ -11,8 +11,8 @@ from faker import Faker
 
 INTERVAL_SECS = 30
 MESSAGE_LIMIT = 20
-SONG_FILE_PATH = "../data/spotify_songs.csv"
-TOPIC = "songs"
+SONG_FILE_PATH = "data/spotify-songs.csv"
+TOPIC = "test"
 
 
 def serializer(value):
@@ -20,25 +20,22 @@ def serializer(value):
 
 
 def generate_record(id: int, name: str, song: str) -> dict:
-    return {"id": id, "name": name, "song": song, "time": datetime.datetime.now()}
+    return {
+        "id": id,
+        "name": name,
+        "song": song,
+        "time": datetime.datetime.now().strftime("%Y-%m-%d %I:%M"),
+    }
 
 
-def generate_rand_record(rand_names: list[str], rand_songs: list[str]) -> dict:
-    name = random.choice(rand_names)
-    song = random.choice(rand_songs)
-    id = random.randint(0, 9999999)
-
-    return generate_record(id, name, song)
-
-
-def generate_names(num_names: int) -> list[str]:
+def generate_names(num_names: int) -> list:
     fake = Faker()
-    fake_names = [fake.name() for _ in range(num_names) - 1]
+    fake_names = [fake.name() for _ in range(num_names - 1)]
     fake_names.insert(0, "Tsirmpas Dimitris")
     return fake_names
 
 
-def generate_songs(song_file_path: str) -> list[str]:
+def generate_songs(song_file_path: str) -> list:
     with open(song_file_path, "r") as file:
         reader = csv.reader(file, delimiter=",")
         songs = [row[0] for row in reader]
@@ -53,14 +50,21 @@ async def produce():
         compression_type="gzip",
     )
 
-    await producer.start()
-
     names = generate_names(50)
     songs = generate_songs(SONG_FILE_PATH)
 
+    await producer.start()
+    print("Data stream open. Records sent:")
+
     num_messages_sent = 0
     while num_messages_sent < MESSAGE_LIMIT:
-        data = generate_rand_record(names, songs)
+        data = generate_record(
+            random.randint(0, 99999),
+            names[num_messages_sent],
+            songs[num_messages_sent],
+        )
+        print(data)
+
         await producer.send(TOPIC, data)
         num_messages_sent += 1
         time.sleep(INTERVAL_SECS)
