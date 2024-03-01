@@ -13,7 +13,7 @@ songSchema = StructType(
         StructField("id", IntegerType(), False),
         StructField("name", StringType(), False),
         StructField("song", StringType(), False),
-        StructField("time", StringType(), False)
+        StructField("time", StringType(), False),
     ]
 )
 
@@ -35,12 +35,24 @@ df = (
     .load()
 )
 
-sdf = (
+formatted_df = (
     df.selectExpr("CAST(value AS STRING)")
     .select(from_json(col("value"), songSchema).alias("data"))
     .select("data.*")
 )
 
-sdf.writeStream.outputMode("update").format("console").option(
+song_df = (
+    spark
+    .read
+    .option("header", True)
+    .option("inferSchema", True)
+    .csv("file:////vagrant/data/spotify-songs.csv")
+    .cache()
+    .show()
+)
+
+
+
+formatted_df.writeStream.outputMode("update").format("console").option(
     "truncate", False
 ).start().awaitTermination()
