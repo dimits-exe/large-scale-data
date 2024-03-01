@@ -9,8 +9,8 @@ from aiokafka import AIOKafkaProducer
 from faker import Faker
 
 
-INTERVAL_SECS = 30
-MESSAGE_LIMIT = 20
+INTERVAL_SECS = 15
+MESSAGE_LIMIT = 50
 SONG_FILE_PATH = "data/spotify-songs.csv"
 TOPIC = "test"
 
@@ -55,7 +55,7 @@ async def produce():
 
     await producer.start()
     print("Data stream open. Records sent:")
-
+    
     num_messages_sent = 0
     while num_messages_sent < MESSAGE_LIMIT:
         data = generate_record(
@@ -66,9 +66,12 @@ async def produce():
         print(data)
 
         await producer.send(TOPIC, data)
+        await producer.flush()
+
         num_messages_sent += 1
         time.sleep(INTERVAL_SECS)
 
+    
     await producer.stop()
 
 
