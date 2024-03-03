@@ -5,7 +5,7 @@ from pyspark.sql.types import (
     IntegerType,
     StringType,
 )
-from pyspark.sql.functions import from_json, col
+from pyspark.sql.functions import from_json, col, udf
 
 
 # spark initialization
@@ -22,16 +22,31 @@ spark.sparkContext.setLogLevel("ERROR")
 
 # spotify songs
 song_df = (
-    spark.read.option("header", True)
+    spark
+    .read
+    .option("header", True)
     .option("inferSchema", True)
     .csv("file:////vagrant/data/spotify-songs.csv")
-    .withColumnRenamed("name", "song_name")
+    .withColumnRenamed("name", "song_name") # disambiguate user name and song name
+    .withColumnRenamed("key", "musical_key") # avoid cql reserved word "key"
     .cache()
 )
 
 song_df.printSchema()
 
 # request from kafka consumer
+
+@udf(returnType=IntegerType())
+def derive_hour(datetime_string: str) -> int:
+    _, time = datetime_string.split(" ")
+    return int(time[:2])
+
+
+@udf(returnType=StringType())
+def derive_date(datetime_string: str) -> str:
+    return datetime_string.split(" ")[0]
+
+
 request_schema = StructType(
     [
         StructField("id", IntegerType(), False),
@@ -48,12 +63,11 @@ request_df = (
     .option("startingOffsets", "latest")
     .load()
     .withColumnRenamed("name", "user_name")
-)
-
-request_df = (
-    request_df.selectExpr("CAST(value AS STRING)")
+    .selectExpr("CAST(value AS STRING)")
     .select(from_json(col("value"), request_schema).alias("data"))
     .select("data.*")
+    .withColumn("hour", derive_hour(col("time")))
+    .withColumn("date", derive_date(col("time")))
 )
 
 request_df.printSchema()
