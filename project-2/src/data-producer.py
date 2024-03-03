@@ -9,8 +9,8 @@ from aiokafka import AIOKafkaProducer
 from faker import Faker
 
 
-INTERVAL_SECS = 5
-MESSAGE_LIMIT = 50
+INTERVAL_SECS = 1
+MESSAGE_LIMIT = 1000
 SONG_FILE_PATH = "data/spotify-songs.csv"
 TOPIC = "test"
 
@@ -31,7 +31,7 @@ def generate_record(id: int, name: str, song: str) -> dict:
 def generate_names(num_names: int) -> list:
     fake = Faker()
     fake_names = [fake.name() for _ in range(num_names - 1)]
-    fake_names.insert(0, "Tsirmpas Dimitris")
+    fake_names.append("Dimitris Tsirmpas")
     return fake_names
 
 
@@ -60,8 +60,8 @@ async def produce():
     while num_messages_sent < MESSAGE_LIMIT:
         data = generate_record(
             random.randint(0, 99999),
-            names[num_messages_sent],
-            songs[num_messages_sent],
+            random.choice(names),
+            random.choice(songs),
         )
         print(data)
 

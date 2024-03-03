@@ -9,6 +9,7 @@ from pyspark.sql.functions import from_json, col, udf
 
 
 DEBUG = False
+FLUSH_INTERVAL_SECS = 30
 
 # spark initialization
 spark = (
@@ -34,6 +35,7 @@ song_df = (
     .cache() # cache dataset as the file is immutable
 )
 
+print("Song dataframe schema:")
 song_df.printSchema()
 
 # request from kafka consumer
@@ -72,6 +74,7 @@ request_df = (
     .withColumn("date", derive_date(col("time")))
 )
 
+print("Request dataframe schema:")
 request_df.printSchema()
 
 # Joining the DataFrames
@@ -80,11 +83,13 @@ joined_df = request_df.join(
 ).drop("song_name")
 
 # Printing the schema of the joined DataFrame
+print("Final dataframe schema:")
 joined_df.printSchema()
 
 
 # Specify the output mode and format
 def writeToCassandra(writeDF, _):
+    print(f"Flushing {writeDF.count()} records to database...")
     (writeDF
     .write
     .format("org.apache.spark.sql.cassandra")
@@ -115,6 +120,7 @@ else:
                 )
                 .foreachBatch(writeToCassandra)
                 .outputMode("update")
+                .trigger(processingTime=f"{FLUSH_INTERVAL_SECS} seconds")
                 .start()
                 .awaitTermination()
             )
