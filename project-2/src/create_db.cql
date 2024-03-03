@@ -14,7 +14,6 @@ CREATE TABLE IF NOT EXISTS spotify.listening_history (
     artists text,
     duration_ms int,
     album_name text,
-    album_release_name text,
     album_release_date text,
     danceability float,
     energy float,

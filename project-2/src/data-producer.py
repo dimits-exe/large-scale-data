@@ -9,7 +9,7 @@ from aiokafka import AIOKafkaProducer
 from faker import Faker
 
 
-INTERVAL_SECS = 15
+INTERVAL_SECS = 5
 MESSAGE_LIMIT = 50
 SONG_FILE_PATH = "data/spotify-songs.csv"
 TOPIC = "test"

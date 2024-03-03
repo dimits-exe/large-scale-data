@@ -8,6 +8,8 @@ from pyspark.sql.types import (
 from pyspark.sql.functions import from_json, col, udf
 
 
+DEBUG = False
+
 # spark initialization
 spark = (
     SparkSession.builder.appName("SSKafka")
@@ -29,7 +31,7 @@ song_df = (
     .csv("file:////vagrant/data/spotify-songs.csv")
     .withColumnRenamed("name", "song_name") # disambiguate user name and song name
     .withColumnRenamed("key", "musical_key") # avoid cql reserved word "key"
-    .cache()
+    .cache() # cache dataset as the file is immutable
 )
 
 song_df.printSchema()
@@ -62,10 +64,10 @@ request_df = (
     .option("subscribe", "test")
     .option("startingOffsets", "latest")
     .load()
-    .withColumnRenamed("name", "user_name")
     .selectExpr("CAST(value AS STRING)")
     .select(from_json(col("value"), request_schema).alias("data"))
     .select("data.*")
+    # add columns needed for the partition key
     .withColumn("hour", derive_hour(col("time")))
     .withColumn("date", derive_date(col("time")))
 )
@@ -80,13 +82,41 @@ joined_df = request_df.join(
 # Printing the schema of the joined DataFrame
 joined_df.printSchema()
 
-# Specify the output mode and format
-query = (
-    joined_df.writeStream.outputMode("update")
-    .format("console")
-    .option("truncate", False)
-    .start()
-)
 
-# Wait for the query to terminate
-query.awaitTermination()
+# Specify the output mode and format
+def writeToCassandra(writeDF, _):
+    (writeDF
+    .write
+    .format("org.apache.spark.sql.cassandra")
+    .mode("append")
+    .options(table="listening_history", keyspace="spotify")
+    .save())
+
+
+if DEBUG:   
+    debug_query = (
+        joined_df
+        .writeStream
+        .outputMode("update")
+        .format("console")
+        .option("truncate", False)
+        .start()
+        .awaitTermination()
+    )
+else:
+    # retry until connection is established
+    result = None
+    while result is None:
+        try:
+            # connect
+            cassandra_query = (
+                joined_df.writeStream.option(
+                    "spark.cassandra.connection.host", "localhost:9042"
+                )
+                .foreachBatch(writeToCassandra)
+                .outputMode("update")
+                .start()
+                .awaitTermination()
+            )
+        except:
+            pass
