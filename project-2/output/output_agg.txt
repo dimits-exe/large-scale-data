@@ -1,0 +1,6 @@
+
+ name              | date       | hour | system.avg(danceability) | system.avg(tempo) | system.avg(acousticness) | system.avg(tempo)
+-------------------+------------+------+--------------------------+-------------------+--------------------------+-------------------
+ Dimitris Tsirmpas | 2024-03-03 |   10 |                 0.736769 |         121.85561 |                 0.280515 |         121.85561
+
+(1 rows)
